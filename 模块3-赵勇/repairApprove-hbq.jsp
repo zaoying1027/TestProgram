@@ -11,7 +11,7 @@
 <html lang="zh-cn">
 <head>
 <meta charset="UTF-8">
-<title>胡博强的基地实习综合管理系统</title>
+<title>胡博强的第二次操作</title>
 <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
 <meta http-equiv="X-UA-Compatible" content="IE=9">
 <meta name="renderer" content="webkit">
