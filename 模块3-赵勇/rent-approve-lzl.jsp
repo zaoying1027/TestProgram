@@ -1,4 +1,4 @@
-<%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
+﻿<%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
 <%
 	String path = request.getContextPath();
 	String basePath = request.getScheme() + "://"
@@ -610,6 +610,7 @@
 
 		</div>
 		<!--row end-->
+												<div><h1>Hello World!</h1></div>//加入新功能
 	</div>
 	
 	<div class="modal fade bs-example-modal-sm" id="help" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -648,4 +649,4 @@
 	</script>
 
 </body>
-</html>
+</
