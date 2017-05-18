@@ -13,7 +13,7 @@
 <html lang="zh-cn">
 <head>
 <meta charset="UTF-8">
-<title>湖南农业大学基地实习综合管理系统</title>
+<title>lala</title>
 <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
 <meta http-equiv="X-UA-Compatible" content="IE=9">
 <meta name="renderer" content="webkit">
@@ -37,7 +37,7 @@
 <body>
 	<div class="navbar" role="navigation">
 		<div class="container-fluid container-nav">
-			<!-- 点击收缩左边的菜单栏  + 缩小后左边菜单栏的显示 -->
+			<!-- 点击收缩左边的菜单栏  + 缩小后左边菜单栏的显�?-->
 			<ul class="nav navbar-nav navbar-actions navbar-left">
 				<li class="visible-md visible-lg"><a><i
 						class="icon-th-large"></i></a></li>
@@ -45,7 +45,7 @@
 						class="icon-align-justify"></i></a></li>
 			</ul>
 
-			<span class="teachCenterTitle">基地实习综合管理系统</span>
+			<span class="teachCenterTitle">������������地实习综合管理系统</span>
 			<!-- Navbar Left -->
 
 			<!-- Navbar Right -->
@@ -101,7 +101,7 @@
 								</div>
 								<div class="divider2"></div>
 								<li class="menuItem"><a href="index.do"> <i
-										class="icon-home" aria-hidden="true"></i><span>主界面</span>
+										class="icon-home" aria-hidden="true"></i><span>主界�?/span>
 								</a></li>
 
 								<li class="menuItem nav-parent"><a> <i
@@ -180,7 +180,7 @@
 				<!-- Sidebar Footer-->
 				<div class="sidebar-footer">
 					<div class="copyright text-center">
-						<div>湖南农业大学版权所有</div>
+						<div>湖南农业大学版权所�?/div>
 					</div>
 				</div>
 				<!-- End Sidebar Footer-->
@@ -208,7 +208,7 @@
 					</div>
 
 				</div>
-				<!-- 主面板内容 -->
+				<!-- 主面板内�?-->
 				<div class="row form">
 
 
@@ -245,7 +245,7 @@
 									<td colspan="8"><button class="btn btn-success" id="showAllInfo">显示全部数据</button></td>
 									<td colspan="9">																														
 										<span id="remind" class="glyphicon glyphicon-send"></span>
-										<button class="btn btn-warning" id="checkIsSave">检测数据完整性</button>										
+										<button class="btn btn-warning" id="checkIsSave">检测数据完整�?/button>										
 										<button class="btn btn-danger" id="delete" ${college==null?"":"style='display:none;'"}>删除</button>
 										<button class="btn btn-success" id="updatePlan" ${college==null?"":"style='display:none;'"}>修改</button>
 										<button class="btn btn-success" id="add" ${college==null?"":"style='display:none;'"}>增加</button>										
@@ -259,15 +259,15 @@
 									<th>课程代码</th>
 									<th>课程名称</th>
 									<th>人数</th>								
-									<th>教学班组成</th>
-									<th>开课学院</th>
-									<th>周学时</th>
+									<th>教学班组�?/th>
+									<th>开课学�?/th>
+									<th>周学�?/th>
 									<th>学时</th>
 									<th>课程性质</th>
 									<th>课程类别</th>
-									<th>教师职工号</th>
+									<th>教师职工�?/th>
 									<th>教师姓名</th>
-									<th>起始周</th>
+									<th>起始�?/th>
 									<th hidden>面向专业</th>
 									<th hidden>专业编号</th>
 									<th>考核方式</th>
@@ -328,7 +328,7 @@
 		</div>
 	</div>
 
-	<!-- 输入学年的第一周-->
+	<!-- 输入学年的第一�?->
 	<div class="modal fade" id="writeWeekTime" tabindex="-1" role="dialog"
 		aria-labelledby="myModalLabel" aria-hidden="true">
 		<div class="modal-dialog">
@@ -340,15 +340,15 @@
 					<div id="closeWriteWeekTime"
 						class="glyphicon glyphicon-remove closeModal" data-dismiss="modal"></div>
 
-					<h5 class="modal-title" id="myModalLabel">请先填写下述消息：</h5>
+					<h5 class="modal-title" id="myModalLabel">请先填写下述消息�?/h5>
 				</div>
 				<center>
 					<div class="modal-body" id="weekTime" style="height:200px;">
 						<div>
-							<span>学年：</span><select class="form-control" name="teamYearw"
+							<span>学年�?/span><select class="form-control" name="teamYearw"
 								style="width:150px;" id="teamYearw">
 								<option value="" id="AteamYearw">请选择学年</option>
-							</select> 学期：<select class="form-control" name="semesterw"
+							</select> 学期�?select class="form-control" name="semesterw"
 								style="width:150px;" id="semesterw">
 								<option value="" id="Asemesterw">请选择学期</option>
 								<option value="1">1</option>
@@ -431,13 +431,13 @@
 
 
 
-	<!--弹出框-->
+	<!--弹出�?->
 	<div class="modal-content" id="Applychart"
 		style="border:#3071a9 8px solid;">
 		<div class="modal-header" style="background:#3071a9; color:#FFF">
 			<div id="closemodal" class="glyphicon glyphicon-remove closeModal"
 				data-dismiss="modal"></div>
-			<h4 class="modal-title text-center" id="myModalLabel">实习申请表</h4>
+			<h4 class="modal-title text-center" id="myModalLabel">实习申请�?/h4>
 		</div>
 
 		<div class="modal-body table-responsive" id="modalbody">
@@ -445,14 +445,14 @@
 
 				<table class="table" id="showtable">
 					<tr>
-						<td>单位：<input readonly type="text" class="noborder"
+						<td>单位�?input readonly type="text" class="noborder"
 							id="division" value="">
 						</td>
-						<td>课程名称：<input readonly type="text" id="classname" value=""
+						<td>课程名称�?input readonly type="text" id="classname" value=""
 							class="noborder">
 						</td>
 
-						<td>班级：<input readonly type="text"
+						<td>班级�?input readonly type="text"
 							class="noborder" id="class" value="">
 						</td>
 						
@@ -462,16 +462,16 @@
 
 					</tr>
 					<tr>
-						<td>面向专业：<input readonly type="text" class="noborder"
+						<td>面向专业�?input readonly type="text" class="noborder"
 							id="major" value="">
 						</td>
-						<td>学分：<input readonly type="text" id="grade" value="4"
+						<td>学分�?input readonly type="text" id="grade" value="4"
 							class="noborder">
 						</td>
-						<td>学习人数：<input readonly type="text" id="number" value="26"
+						<td>学习人数�?input readonly type="text" id="number" value="26"
 							class="noborder">
 						</td>
-						<td>实习周数：<input readonly type="text" id="weeks" value="12"
+						<td>实习周数�?input readonly type="text" id="weeks" value="12"
 							class="noborder">
 						</td>
 					</tr>
@@ -490,7 +490,7 @@
 							class="noborder text-center flag" id="adviser" type="text"></td>
 					</tr>
 					<tr>
-						<td colspan="2">实验员姓名</td>
+						<td colspan="2">实验员姓�?/td>
 						<td colspan="8"><input class="noborder text-center flag"
 							readonly id="testername" type="text"></td>
 					</tr>
@@ -520,13 +520,13 @@
 					<div class="modal-header" style="background:#3071a9; color:#FFF">
 						<div class="glyphicon glyphicon-remove closeModal"
 							data-dismiss="modal"></div>
-						<h4 class="modal-title text-center">请选择实验员</h4>
+						<h4 class="modal-title text-center">请选择实验�?/h4>
 					</div>
 					<center>
 						<div class="modal-body">
 							<div class="row" style="margin-bottom: 30px;">
 								<div class="col-sm-12 form-inline">
-									<lable>实验员:</lable>
+									<lable>实验�?</lable>
 									<input id="tester" type="text" class="form-control exeWidth"
 										value="">
 								</div>
@@ -704,7 +704,7 @@
 	</div>
 	
 	
-	<!--增加按钮弹出框-->
+	<!--增加按钮弹出�?->
 	<div id="addPraItem">
 		
 			<div class="modal-content" style="border:#3071a9 8px solid;">
@@ -742,10 +742,10 @@
 								<td><select class="form-control" name="courseCategory"
 									id="incourseCategory">
 										<option value="">请选择</option>
-										<option value="实践课">实践课</option>
-										<option value="理论课">理论课</option>
+										<option value="实践�?>实践�?/option>
+										<option value="理论�?>理论�?/option>
 								</select></td>
-								<td>开课学院<span class="setTag">*</span></td>
+								<td>开课学�?span class="setTag">*</span></td>
 								<td><select class="form-control" name="college"}
 									id="incollege">
 										<option value="" id="Acollegeh">请选择</option>
@@ -756,7 +756,7 @@
 								<td>带队教师<span class="setTag">*</span></td>
 								<td><input type="text" value="" name="tname" id="intname"
 									class="form-control"/></td>
-								<td>教师职工号<span class="setTag">*</span></td>
+								<td>教师职工�?span class="setTag">*</span></td>
 								<td><input type="text" value="" name="tid" id="intid"
 									class="form-control"/></td>
 							</tr>
@@ -767,7 +767,7 @@
 									<div id="select" hidden style="padding:0 10px">
 										<form class="form-inline">
 											<div class="form-group">
-												<label for="starNum">开始周次</label> <select type="text"
+												<label for="starNum">开始周�?/label> <select type="text"
 													id="starNum">
 													<option value="0" id="starNumID">请选择</option>
 												</select>
@@ -795,10 +795,10 @@
 							</tr>
 							<tr>
 								
-								<td>已选人数</td>
+								<td>已选人�?/td>
 								<td><input type="text" name="selectedCount"
 									id="inselectedCount" class="form-control" placeholder="例：90"></td>
-<td>周学时</td>
+<td>周学�?/td>
 								<td><input type="text" name="weekClassify"
 									id="inweekClassify" class="form-control" placeholder="例：2"></td>
 							</tr>
@@ -846,7 +846,7 @@
 				<div class="modal-body">
 					<form class="form-horizontal">
 						<div class="form-group">
-							<label for="Stime" class="col-md-offset-2 col-md-2 control-label">开始时间</label>
+							<label for="Stime" class="col-md-offset-2 col-md-2 control-label">开始时�?/label>
 							<div class="col-md-6">
 								<input type="text" class="form-control laydate-icon" id="Stime">
 							</div>
@@ -919,7 +919,7 @@
 		</div>
 	</div>
 
-	<!-- 修改按钮弹出框-->	
+	<!-- 修改按钮弹出�?->	
 		<div id="updatePlanItem">
 			<div class="modal-content" style="border:#3071a9 8px solid;">
 				<div class="modal-header" style="background:#3071a9; color:#FFF">
@@ -954,10 +954,10 @@
 								<td>课程类别<span class="setTag">*</span></td>
 								<td><select class="form-control" id="courseCategory_0">
 										<option value="">请选择</option>
-										<option value="实践课">实践课</option>
-										<option value="理论课">理论课</option>
+										<option value="实践�?>实践�?/option>
+										<option value="理论�?>理论�?/option>
 								</select></td>
-								<td>开课学院<span class="setTag">*</span></td>
+								<td>开课学�?span class="setTag">*</span></td>
 								<td><select class="form-control" name="college"
 									id="college_0">
 										<option value="" id="college_00">请选择</option>
@@ -968,7 +968,7 @@
 								<td>带队教师<span class="setTag">*</span></td>
 								<td><input type="text" value="" id="tname_0"
 									class="form-control"></td>
-								<td>教师职工号<span class="setTag">*</span></td>
+								<td>教师职工�?span class="setTag">*</span></td>
 								<td><input type="text" value="" id="tid_0"
 									class="form-control"></td>
 							</tr>
@@ -986,10 +986,10 @@
 							</tr>
 							<tr>
 								
-								<td>已选人数</td>
+								<td>已选人�?/td>
 								<td><input type="text" id="selectedCount_0"
 									class="form-control" placeholder="例：90"></td>
-									<td>周学时</td>
+									<td>周学�?/td>
 								<td><input type="text" id="weekClassify_0"
 									class="form-control" placeholder="例：2.0"></td>
 
@@ -1123,10 +1123,10 @@
       </div>
       <div class="modal-body text-center">
  	    <div class="row">   
-    		<div class="col-md-12 helpcolor"><a href="../audio/userMedia.rar">普通用户功能演示视频</a></div>
+    		<div class="col-md-12 helpcolor"><a href="../audio/userMedia.rar">普通用户功能演示视�?/a></div>
   	   </div>
   	   <div class="row" style="margin-top:20px;">
-  	 		 <div class="col-md-12 helpcolor"><a href="../audio/collegeMedia.rar">学院负责人功能演示视频</a></div>  
+  	 		 <div class="col-md-12 helpcolor"><a href="../audio/collegeMedia.rar">学院负责人功能演示视�?/a></div>  
   		</div>
       </div>
     </div>
@@ -1147,7 +1147,7 @@
 	<script src="../js/kg.js"></script>
 	<script src="../js/select2.full.js" ></script>
 	<script>
-		laydate.skin('yalan'); //切换皮肤，请查看skins下面皮肤库
+		laydate.skin('yalan'); //切换皮肤，请查看skins下面皮肤�?
 		laydate({
 			elem : '#oneSemesterTime'
 		})
